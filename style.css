@@ -1,0 +1,88 @@
+/* Código dos cards */
+
+
+.melhoresfilmes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(119, 0, 0);
+    padding: 40px 20px;
+}
+
+.filme-card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(4, 0, 53);
+    width: 280px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+
+}
+
+.filme-card img {
+
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    display: block;
+    
+}
+
+.filmes-info {
+
+    padding: 15px;
+
+
+}
+
+.filmes-info h3 {
+    margin: 0 0 10px 0;
+    font-size: 25px;
+}
+
+.filmes-info .genero {
+
+    font-size: 10px;
+    color: rgb(25, 25, 105);
+    margin-bottom: 8px;
+
+}
+
+/* Fim dos cards */
+
+/* Header */
+
+header {
+
+height: 140px;
+border: solid 1px royalblue;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav {
+ width: 25%;
+
+}
+
+.lista {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
+.lista li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 88);
+    font-size: 20px;
+}
+
+input {
+    width: 300px;
+}
